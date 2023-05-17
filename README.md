@@ -1,4 +1,8 @@
+#HEROKU LINK https://deploy-flask-soil-sensor-app.herokuapp.com/
+
+//////////////////////////////
 # flask-sensor-project
+//////////////////////////////
 ## This project is comprised of 3 parts
 ### 1 Arduino soil sensor - code available in `ino` file
 ### 2 Flask application - code starts at `app.py` and includes `templates` folder and `static` folder
