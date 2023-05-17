@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Soil Sensor Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <img src="https://www.freeiconspng.com/thumbs/leaf-icon-png/green-leaf-icon-10.png" width="100">
+    <h1>Soil Moisture Tracker</h1>
+    <br>
+    <form action="dashboard" method="post">
+        {% for message in get_flashed_messages() %}
+             <p>{{ message }}</p>
+         {% endfor %}
+        <br>
+        <input type="text" name="pascode_input">
+        <br>
+        <input type="submit" value="LOGIN" id="login">
+    </form>
+</body>
+</html>
