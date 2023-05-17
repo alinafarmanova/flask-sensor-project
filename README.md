@@ -1,4 +1,4 @@
-#HEROKU LINK https://deploy-flask-soil-sensor-app.herokuapp.com/
+# HEROKU LINK https://deploy-flask-soil-sensor-app.herokuapp.com/
 
 //////////////////////////////
 # flask-sensor-project
